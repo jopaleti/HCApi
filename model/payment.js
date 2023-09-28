@@ -1,0 +1,18 @@
+export const paymentDetails = `CREATE TABLE payment (
+    id int PRIMARY KEY AUTO_INCREMENT,
+    userId int NOT NULL,
+    plan VARCHAR(255) NOT NULL,
+    plan_code VARCHAR(255) NOT NULL,
+    inter_val VARCHAR(255) NOT NULL,
+    email VARCHAR(255),
+    name varchar(255),
+    phone_number varchar(255),
+    transaction_id int,
+    reference VARCHAR(255),
+    amount VARCHAR(255),
+    currency VARCHAR(255),
+    status VARCHAR(255),
+    pay_type VARCHAR(255),
+    last4 int,
+    exp_month int,
+    exp_year int)`;
